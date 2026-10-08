@@ -1,17 +1,25 @@
-"use strict";
+"use strict"
 
-//Constante fija: su valor está escrito directamente en el código.
-//Usamos las MAYÚSCULAS porque representa un dato que no cambia.
-const FECHA_NACIMIENTO = "15/06/2005";
+let a = 10;
+let b = 5;
 
-//Valor calculado durante la ejecución.
-//Es constante ya que una vez calculado, no necesitamos reasignarlo.
-const edad = 2026 - 2005;
+//Operaciones normales
+console.log("Suma:", a + b);
+console.log("Resta:", a - b);
+console.log("Multiplicación:", a * b);
+console.log("División:", a / b);
+console.log("Resto:", a % b);
 
-//Mostrar los valores .
-console.log("Fecha de nacimiento:", FECHA_NACIMIENTO);
-console.log("Edad:", edad);
+//Incrementos
+console.log("valor de a: ", a);
+console.log("valor de b: ", b);
+a++;
+b--;
+console.log("a vale ahora:", a);
+console.log("b vale ahora:", b);
 
-//Resultados por la consola
-//Fecha de nacimiento: 15/06/2005
-//Edad: 21
+//Comparaciones
+console.log("a es igual a b? ", a === b);
+console.log("a es diferente de b? ", a !== b);
+console.log("a es mayor que b? ", a > b);
+console.log("a es menor o igual que b? ", a <= b);
