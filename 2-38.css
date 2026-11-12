@@ -1,0 +1,31 @@
+body {
+    font-family: Nunito, sans-serif;
+    text-align: center;
+    background-color: #fff9ed;
+}
+
+h1 {
+    color: #0159fe;
+}
+
+h3 {
+    color: #0159fe;
+}
+
+p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 25px;
+    margin: 12px;
+    background-color: #0159fe;
+    color: white;
+    border: none;
+    border-radius: 8px;   
+}
+
+button:hover {
+    background-color: #031764;
+}
