@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" defer></script>
     <title>Calculadora</title>
 </head>
 <body>
     <fieldset>
-        <legend>Carculadora</legend>
-        <form>
+        <legend>Calculadora</legend>
+        <form id = "formulario">
             <input type = "number" id = "num1" value = "0" step = "any"><br>
             <select id = "op" name = "op">
                 <option value = "+">Suma</option>
@@ -16,13 +17,13 @@
                 <option value = "*">Multiplicación</option>
                 <option value = "/">División</option>
                 <option value = "%">Resto</option>
-                <option value = "">Potencia</option>
+                <option value = "^">Potencia</option>
             </select><br>
             <input type = "number" id = "num2" value = "0" step = "any"><br>
             <hr>
-            <input id = "resultado"><br>
+            <p id = "resultado"></p><br>
             <button type = "submit" id = "calcular">Calcular</button>
-            <button type = "submit" id = "limpiar">Limpiar</button>
+            <button type = "button" id = "limpiar">Limpiar</button>
             <h5 id = "mensaje"></h5>
         </form>
     </fieldset>
